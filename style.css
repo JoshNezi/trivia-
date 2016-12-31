@@ -1,3 +1,72 @@
 body {
   font-family: 'Lato', sans-serif;
+  height: 80%;
+  background-image: url("http://worldlandscapearchitect.com/image/2012/hassell/less/05_HASSELL_LESS_FULLSCREEN.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  color: red;
+  font-size: 42px;
+  text-align: center;
+  text-shadow: 1px 2px 3px #666;
+  margin-top: 0.3em;
+
+}
+
+.content {
+  width: 40%;
+  height: 40%;
+  padding: 2em 4em;
+  border-style: solid;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: blue;
+  text-shadow: 1px 2px 3px #666;
+  background-color: yellow;
+
+}
+
+#after_submit {
+    visibility: hidden;
+    background: #ff5459;
+    width: 30%;
+    border-radius: 80px;
+    float: right;
+    font-size: 30px;
+    margin-top: 1em;
+    margin-right: 2em;
+}
+#after_submit img{
+    width: 70%;
+    padding: 2em 2em 2em 2em;
+    border-radius: 30%;
+    margin-top: 0;
+}
+#after_submit p{
+  text-align: center;
+  color: white;
+}
+
+#button {
+  margin-top: 1em;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#button:hover{background-color: #cc0000}
+
+#button:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>World Trivia</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <script src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Trivia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
+
 <body>
-<h1> World Trivia quiz </h2>
+    <h1> World Trivia quiz </h2>
+      <div id="after_submit">
+      <p id="message"></p>
+      <p id="number_correct">You did a good ass job</p>
+      <img id="picture">
+      </div>
 <form id="quiz" name="quiz">
+<div class="content">
 <p>What is the capital of Botswana?</p>
 <input type="radio" id="mc" name="question1" value="Gaborone">Gaborone<br>
 <input type="radio" id="mc" name="question1" value="Lagos">Lagos<br>
 <input type="radio" id="mc" name="question1" value="Caracas">Caracas<br>
-<p>
+<input type="radio" id="mc" name="question1" value="Tangier">Tangier<br>
+
+<p>What countries is the Serengeti located?</p>
+<input type="radio" id="mc" name="question2" value="nigeria_egypt">Nigeria and Egypt<br>
+<input type="radio" id="mc" name="question2" value="kenya_south_africa">Kenya South Africa<br>
+<input type="radio" id="mc" name="question2" value="kenya_tanzania">Kenya Tanzania<br>
+<input type="radio" id="mc" name="question2" value="egypt_libya">Egypt Libya<br>
+
+<p>Why is there so much Indonesian food in the Netherlands?</p>
+<input type="radio" id="mc" name="question3" value="the_dutch_love_indonesia">The Dutch Love Indonesia<br>
+<input type="radio" id="mc" name="question3" value="indonesia_is_a_former_colony">Indonesia is a former colony<br>
+<input type="radio" id="mc" name="question3" value="indonesian_food_is_dope">Indonesian food is dope<br>
+<input type="radio" id="mc" name="question3" value="large_indonesian_population">There's a large Indonesian population in the Netherlands.<br>
+
+<input id="button" type="button" value="I'm finished" onclick="check();">
+</div>
+
 </form>
+
+
 </body>
 </html>
